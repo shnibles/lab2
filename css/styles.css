@@ -5,3 +5,91 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content-box {
+	width: 80%;
+	margin: 10px auto;
+	box-shadow: 3px 3px 6px #BBB;
+	background-color: #FFF;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.header img {
+	float: left;
+	padding: 10px;
+}
+
+.header h1 {
+	font-family: 'Boogaloo', sans-serif;
+	font-size: 36px;
+	color: #116189;
+	padding: 9px;
+}
+
+.header p {
+	font-style: italic;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+nav {
+	display: inline-block;
+	background-color: #D74710;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 18pt;
+	width: 95%;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+nav li {
+	float: left;
+	padding: 10px;
+}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.content p {
+	margin: 10px;
+}
+
+.content img {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.footer {
+	border-top: 1px solid #BBB;
+	font-style: italic;
+	clear: both;
+	margin: 18px;
+	padding-top: 10px;
+}
+
+.footer p {
+	margin-bottom: 20px;
+}
